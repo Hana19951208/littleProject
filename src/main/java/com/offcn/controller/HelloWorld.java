@@ -15,7 +15,7 @@ public class HelloWorld {
     @RequestMapping("/hello")
     @ResponseBody
     public String hello(){
-
+        System.out.println("dashabi");
         return "hello world";
     }
 }
